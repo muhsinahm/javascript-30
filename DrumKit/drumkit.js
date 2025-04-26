@@ -1,12 +1,12 @@
 import { keysData } from "./keysData.js";
 
 function createButton() {
-  var container = document.getElementById("keys-container");
+  const container = document.getElementById("keys-container");
   keysData.forEach((item) => {
-    var btn = document.createElement("button");
+    const btn = document.createElement("button");
     btn.className = "keys";
 
-    var btnText = document.createElement("div");
+    const btnText = document.createElement("div");
     btnText.className = "key-text";
 
     var keyCharacter = document.createElement("span");
