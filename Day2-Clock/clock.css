@@ -1,0 +1,46 @@
+body {
+  width: 100vw;
+  margin: 0;
+}
+#bg {
+  background-image: url("https://images.unsplash.com/photo-1589278559766-6d2fc8520367?q=80&w=2890&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  width: 300px;
+  height: 300px;
+  border: 20px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hand {
+  position: absolute;
+  height: 8px;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  transform-origin: left center;
+
+  
+}
+
+.hour {
+  width: 30%;
+}
+.minute {
+  width: 40%;
+}
+.second {
+  width: 50%;
+}
