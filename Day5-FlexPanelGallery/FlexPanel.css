@@ -1,0 +1,17 @@
+body{
+    background: #ffc600;
+      font-family: 'helvetica neue';
+      font-size: 20px;
+      font-weight: 200;
+}
+
+.panel-container{
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.panel{
+    background: #6B0F9C;
+    flex: 1;
+}
